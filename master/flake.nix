@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-presto-master.flake = false;
+  inputs.src-presto-master.ref   = "refs/heads/master";
   inputs.src-presto-master.owner = "status-im";
-  inputs.src-presto-master.ref   = "master";
   inputs.src-presto-master.repo  = "nim-presto";
   inputs.src-presto-master.type  = "github";
   
