@@ -2,73 +2,20 @@
   "nodes": {
     "bearssl": {
       "inputs": {
-        "bearssl-master": "bearssl-master",
         "flakeNimbleLib": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
           "chronos",
-          "chronos-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
           "chronos",
-          "chronos-master",
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648153002,
-        "narHash": "sha256-QS++BGS8+RXOVlUNCaHVvCEN4qlqnIJIXrZLRSCyGPI=",
-        "owner": "nim-nix-pkgs",
-        "repo": "bearssl",
-        "rev": "d3b7de13815bd112e4963ea6de28c105e5ad3a8c",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "bearssl",
-        "type": "github"
-      }
-    },
-    "bearssl-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "serialization",
-          "serialization-master",
-          "faststreams",
-          "faststreams-master",
-          "chronos",
-          "chronos-master",
-          "bearssl",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "serialization",
-          "serialization-master",
-          "faststreams",
-          "faststreams-master",
-          "chronos",
-          "chronos-master",
-          "bearssl",
           "nixpkgs"
         ],
         "src-bearssl-master": "src-bearssl-master",
@@ -76,45 +23,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648153002,
-        "narHash": "sha256-QS++BGS8+RXOVlUNCaHVvCEN4qlqnIJIXrZLRSCyGPI=",
+        "lastModified": 1648164265,
+        "narHash": "sha256-u+1GwLyo49nWSRYqTqwdpFR5e8qCfwDU9plB5iMMwww=",
         "owner": "nim-nix-pkgs",
         "repo": "bearssl",
-        "rev": "d3b7de13815bd112e4963ea6de28c105e5ad3a8c",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "bearssl",
-        "type": "github"
-      }
-    },
-    "bearssl-master_2": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "chronos",
-          "chronos-master",
-          "bearssl",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "chronos",
-          "chronos-master",
-          "bearssl",
-          "nixpkgs"
-        ],
-        "src-bearssl-master": "src-bearssl-master_2",
-        "unittest2": "unittest2_5"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1648153002,
-        "narHash": "sha256-QS++BGS8+RXOVlUNCaHVvCEN4qlqnIJIXrZLRSCyGPI=",
-        "owner": "nim-nix-pkgs",
-        "repo": "bearssl",
-        "rev": "d3b7de13815bd112e4963ea6de28c105e5ad3a8c",
+        "rev": "f1b8ea3e35ee696f147f2582887986e46fbcf186",
         "type": "github"
       },
       "original": {
@@ -127,27 +40,28 @@
     },
     "bearssl_2": {
       "inputs": {
-        "bearssl-master": "bearssl-master_2",
         "flakeNimbleLib": [
           "chronos",
-          "chronos-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "chronos",
-          "chronos-master",
           "nixpkgs"
-        ]
+        ],
+        "src-bearssl-master": "src-bearssl-master_2",
+        "unittest2": "unittest2_5"
       },
       "locked": {
-        "lastModified": 1648153002,
-        "narHash": "sha256-QS++BGS8+RXOVlUNCaHVvCEN4qlqnIJIXrZLRSCyGPI=",
+        "dir": "master",
+        "lastModified": 1648164265,
+        "narHash": "sha256-u+1GwLyo49nWSRYqTqwdpFR5e8qCfwDU9plB5iMMwww=",
         "owner": "nim-nix-pkgs",
         "repo": "bearssl",
-        "rev": "d3b7de13815bd112e4963ea6de28c105e5ad3a8c",
+        "rev": "f1b8ea3e35ee696f147f2582887986e46fbcf186",
         "type": "github"
       },
       "original": {
+        "dir": "master",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "bearssl",
@@ -168,11 +82,11 @@
       },
       "locked": {
         "dir": "v0_10_2",
-        "lastModified": 1648154746,
-        "narHash": "sha256-oV2o7CrHZfWGtk5vfsecbLy2YgZZM75bi+ky4b1e+T8=",
+        "lastModified": 1648166235,
+        "narHash": "sha256-tb3KKCwnD351hS0gG0Gz6qMHPm99GPJUvGwzcFMRZe8=",
         "owner": "nim-nix-pkgs",
         "repo": "chronicles",
-        "rev": "9a6c88f9ec898e8abceabaf9672afb11e463b4fd",
+        "rev": "af0a81ca5fdaaf31dd6b1192d1f14fcc1d9c5b6a",
         "type": "github"
       },
       "original": {
@@ -185,67 +99,20 @@
     },
     "chronos": {
       "inputs": {
-        "chronos-master": "chronos-master",
-        "flakeNimbleLib": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "serialization",
-          "serialization-master",
-          "faststreams",
-          "faststreams-master",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "serialization",
-          "serialization-master",
-          "faststreams",
-          "faststreams-master",
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648153854,
-        "narHash": "sha256-C2etf0zgZdOUwFXBDmbP1tnCPCsAyKlKlZsn46f3KLo=",
-        "owner": "nim-nix-pkgs",
-        "repo": "chronos",
-        "rev": "e33903c5fad8ff65886e25241098051a49467d86",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "chronos",
-        "type": "github"
-      }
-    },
-    "chronos-master": {
-      "inputs": {
         "bearssl": "bearssl",
         "flakeNimbleLib": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
-          "chronos",
           "flakeNimbleLib"
         ],
         "httputils": "httputils",
         "nixpkgs": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
-          "chronos",
           "nixpkgs"
         ],
         "src-chronos-master": "src-chronos-master",
@@ -253,43 +120,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648153854,
-        "narHash": "sha256-C2etf0zgZdOUwFXBDmbP1tnCPCsAyKlKlZsn46f3KLo=",
+        "lastModified": 1648165426,
+        "narHash": "sha256-ujhLcGrUzvM4Hyk2MtBwbER/8pu1XlNGdaMuClVsBc4=",
         "owner": "nim-nix-pkgs",
         "repo": "chronos",
-        "rev": "e33903c5fad8ff65886e25241098051a49467d86",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "chronos",
-        "type": "github"
-      }
-    },
-    "chronos-master_2": {
-      "inputs": {
-        "bearssl": "bearssl_2",
-        "flakeNimbleLib": [
-          "chronos",
-          "flakeNimbleLib"
-        ],
-        "httputils": "httputils_2",
-        "nixpkgs": [
-          "chronos",
-          "nixpkgs"
-        ],
-        "src-chronos-master": "src-chronos-master_2",
-        "stew": "stew_7"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1648153854,
-        "narHash": "sha256-C2etf0zgZdOUwFXBDmbP1tnCPCsAyKlKlZsn46f3KLo=",
-        "owner": "nim-nix-pkgs",
-        "repo": "chronos",
-        "rev": "e33903c5fad8ff65886e25241098051a49467d86",
+        "rev": "acd9433bf6f78ad668f650d67190163a5097f416",
         "type": "github"
       },
       "original": {
@@ -302,23 +137,28 @@
     },
     "chronos_2": {
       "inputs": {
-        "chronos-master": "chronos-master_2",
+        "bearssl": "bearssl_2",
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
+        "httputils": "httputils_2",
         "nixpkgs": [
           "nixpkgs"
-        ]
+        ],
+        "src-chronos-master": "src-chronos-master_2",
+        "stew": "stew_7"
       },
       "locked": {
-        "lastModified": 1648153854,
-        "narHash": "sha256-C2etf0zgZdOUwFXBDmbP1tnCPCsAyKlKlZsn46f3KLo=",
+        "dir": "master",
+        "lastModified": 1648165426,
+        "narHash": "sha256-ujhLcGrUzvM4Hyk2MtBwbER/8pu1XlNGdaMuClVsBc4=",
         "owner": "nim-nix-pkgs",
         "repo": "chronos",
-        "rev": "e33903c5fad8ff65886e25241098051a49467d86",
+        "rev": "acd9433bf6f78ad668f650d67190163a5097f416",
         "type": "github"
       },
       "original": {
+        "dir": "master",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "chronos",
@@ -327,58 +167,17 @@
     },
     "faststreams": {
       "inputs": {
-        "faststreams-master": "faststreams-master",
-        "flakeNimbleLib": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "serialization",
-          "serialization-master",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "serialization",
-          "serialization-master",
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648154323,
-        "narHash": "sha256-rZQgvrxo8fRMRNwoQcYyyf2b/ES0Sxhm/4D0snqYXh8=",
-        "owner": "nim-nix-pkgs",
-        "repo": "faststreams",
-        "rev": "454b4e499d01778bf16cca2d2977eee6ae4f0bab",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "faststreams",
-        "type": "github"
-      }
-    },
-    "faststreams-master": {
-      "inputs": {
         "chronos": "chronos",
         "flakeNimbleLib": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
-          "faststreams",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
-          "faststreams",
           "nixpkgs"
         ],
         "src-faststreams-master": "src-faststreams-master",
@@ -388,11 +187,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648154323,
-        "narHash": "sha256-rZQgvrxo8fRMRNwoQcYyyf2b/ES0Sxhm/4D0snqYXh8=",
+        "lastModified": 1648165856,
+        "narHash": "sha256-ISvaUH1hDDJPdcvpEiN/Tp0nsSnY/uXbQ71Yr4ZKwXQ=",
         "owner": "nim-nix-pkgs",
         "repo": "faststreams",
-        "rev": "454b4e499d01778bf16cca2d2977eee6ae4f0bab",
+        "rev": "702abfd677d6b3d0015344090060bc1263029c65",
         "type": "github"
       },
       "original": {
@@ -429,70 +228,17 @@
         "flakeNimbleLib": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
           "chronos",
-          "chronos-master",
-          "flakeNimbleLib"
-        ],
-        "httputils-master": "httputils-master",
-        "nixpkgs": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "serialization",
-          "serialization-master",
-          "faststreams",
-          "faststreams-master",
-          "chronos",
-          "chronos-master",
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648110661,
-        "narHash": "sha256-UWVcjUCoKEcug6xn6MZurazdJjCxzb/+1diwRotAZSI=",
-        "owner": "nim-nix-pkgs",
-        "repo": "httputils",
-        "rev": "1fd43adfc002ca583a53c7d72ad90384c68a04f9",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "httputils",
-        "type": "github"
-      }
-    },
-    "httputils-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "serialization",
-          "serialization-master",
-          "faststreams",
-          "faststreams-master",
-          "chronos",
-          "chronos-master",
-          "httputils",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
           "chronos",
-          "chronos-master",
-          "httputils",
           "nixpkgs"
         ],
         "src-httputils-master": "src-httputils-master",
@@ -501,46 +247,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1647922203,
-        "narHash": "sha256-rVAS7aSRJP4644zAP7GVUmsqGOPMYuWNSUy00R9ZsTU=",
+        "lastModified": 1648164685,
+        "narHash": "sha256-U5kQAAkeOormK5YkcT/KkC8Sm9URz9BtbtnzzBJ2I0I=",
         "owner": "nim-nix-pkgs",
         "repo": "httputils",
-        "rev": "73fbe5d22d26ae4122d8733b507835812e69a2d5",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "httputils",
-        "type": "github"
-      }
-    },
-    "httputils-master_2": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "chronos",
-          "chronos-master",
-          "httputils",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "chronos",
-          "chronos-master",
-          "httputils",
-          "nixpkgs"
-        ],
-        "src-httputils-master": "src-httputils-master_2",
-        "stew": "stew_6",
-        "unittest2": "unittest2_6"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1647922203,
-        "narHash": "sha256-rVAS7aSRJP4644zAP7GVUmsqGOPMYuWNSUy00R9ZsTU=",
-        "owner": "nim-nix-pkgs",
-        "repo": "httputils",
-        "rev": "73fbe5d22d26ae4122d8733b507835812e69a2d5",
+        "rev": "5aa9097ccacf07f47379c50df5c51c38f3354d39",
         "type": "github"
       },
       "original": {
@@ -555,25 +266,27 @@
       "inputs": {
         "flakeNimbleLib": [
           "chronos",
-          "chronos-master",
           "flakeNimbleLib"
         ],
-        "httputils-master": "httputils-master_2",
         "nixpkgs": [
           "chronos",
-          "chronos-master",
           "nixpkgs"
-        ]
+        ],
+        "src-httputils-master": "src-httputils-master_2",
+        "stew": "stew_6",
+        "unittest2": "unittest2_6"
       },
       "locked": {
-        "lastModified": 1648110661,
-        "narHash": "sha256-UWVcjUCoKEcug6xn6MZurazdJjCxzb/+1diwRotAZSI=",
+        "dir": "master",
+        "lastModified": 1648164685,
+        "narHash": "sha256-U5kQAAkeOormK5YkcT/KkC8Sm9URz9BtbtnzzBJ2I0I=",
         "owner": "nim-nix-pkgs",
         "repo": "httputils",
-        "rev": "1fd43adfc002ca583a53c7d72ad90384c68a04f9",
+        "rev": "5aa9097ccacf07f47379c50df5c51c38f3354d39",
         "type": "github"
       },
       "original": {
+        "dir": "master",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "httputils",
@@ -586,37 +299,8 @@
           "chronicles",
           "flakeNimbleLib"
         ],
-        "json_serialization-master": "json_serialization-master",
         "nixpkgs": [
           "chronicles",
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648154677,
-        "narHash": "sha256-PaQa/9+bgLSBMjlVgSt9C685d1XJNaT2fV9OGG5JXxk=",
-        "owner": "nim-nix-pkgs",
-        "repo": "json_serialization",
-        "rev": "4647e5c93ec73c8f667055b30e52d9726f8cebf7",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "json_serialization",
-        "type": "github"
-      }
-    },
-    "json_serialization-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "chronicles",
-          "json_serialization",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "chronicles",
-          "json_serialization",
           "nixpkgs"
         ],
         "serialization": "serialization",
@@ -625,11 +309,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648154677,
-        "narHash": "sha256-PaQa/9+bgLSBMjlVgSt9C685d1XJNaT2fV9OGG5JXxk=",
+        "lastModified": 1648166175,
+        "narHash": "sha256-Xui/ijJL24KxcmHym3llqRd7MRAWzdV1E6yDwxEANAY=",
         "owner": "nim-nix-pkgs",
         "repo": "json_serialization",
-        "rev": "4647e5c93ec73c8f667055b30e52d9726f8cebf7",
+        "rev": "9f2e439c9b4c31badc53e098b5ef9b63cfb0dc83",
         "type": "github"
       },
       "original": {
@@ -663,50 +347,15 @@
     },
     "serialization": {
       "inputs": {
-        "flakeNimbleLib": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "nixpkgs"
-        ],
-        "serialization-master": "serialization-master"
-      },
-      "locked": {
-        "lastModified": 1648154550,
-        "narHash": "sha256-Tel0rnPzxxAAdsUThV5omPjEnjdf6wg4QONhqYa8Ddk=",
-        "owner": "nim-nix-pkgs",
-        "repo": "serialization",
-        "rev": "7669528a8e155e248fffffb11d370f1650de951d",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "serialization",
-        "type": "github"
-      }
-    },
-    "serialization-master": {
-      "inputs": {
         "faststreams": "faststreams",
         "flakeNimbleLib": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
-          "serialization",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
-          "serialization",
           "nixpkgs"
         ],
         "src-serialization-master": "src-serialization-master",
@@ -715,11 +364,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648154550,
-        "narHash": "sha256-Tel0rnPzxxAAdsUThV5omPjEnjdf6wg4QONhqYa8Ddk=",
+        "lastModified": 1648166057,
+        "narHash": "sha256-4Mx+yXjxLAHALEAcQoQUli+5Sc+cR/zHZIZep2e6N5w=",
         "owner": "nim-nix-pkgs",
         "repo": "serialization",
-        "rev": "7669528a8e155e248fffffb11d370f1650de951d",
+        "rev": "608ebbde8cf35b062c0022910b400f58b9e236f3",
         "type": "github"
       },
       "original": {
@@ -1194,352 +843,30 @@
         "flakeNimbleLib": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
           "chronos",
-          "chronos-master",
           "httputils",
-          "httputils-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
           "chronos",
-          "chronos-master",
           "httputils",
-          "httputils-master",
-          "nixpkgs"
-        ],
-        "stew-master": "stew-master"
-      },
-      "locked": {
-        "lastModified": 1647935004,
-        "narHash": "sha256-EsMiaWuoPhnA6uh5Bjo8G1EXDLuQPHI4vXQUbKtUujI=",
-        "owner": "nim-nix-pkgs",
-        "repo": "stew",
-        "rev": "3e60ee9ba32782a5a34ff424b8c8d290b897dcc6",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "stew",
-        "type": "github"
-      }
-    },
-    "stew-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "serialization",
-          "serialization-master",
-          "faststreams",
-          "faststreams-master",
-          "chronos",
-          "chronos-master",
-          "httputils",
-          "httputils-master",
-          "stew",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "serialization",
-          "serialization-master",
-          "faststreams",
-          "faststreams-master",
-          "chronos",
-          "chronos-master",
-          "httputils",
-          "httputils-master",
-          "stew",
           "nixpkgs"
         ],
         "src-stew-master": "src-stew-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1647935004,
-        "narHash": "sha256-EsMiaWuoPhnA6uh5Bjo8G1EXDLuQPHI4vXQUbKtUujI=",
+        "lastModified": 1648163641,
+        "narHash": "sha256-o1mp1U2lK44+JZDk4wYL0ntUijy1+3WGRrAHyr8j/GU=",
         "owner": "nim-nix-pkgs",
         "repo": "stew",
-        "rev": "3e60ee9ba32782a5a34ff424b8c8d290b897dcc6",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "stew",
-        "type": "github"
-      }
-    },
-    "stew-master_2": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "serialization",
-          "serialization-master",
-          "faststreams",
-          "faststreams-master",
-          "chronos",
-          "chronos-master",
-          "stew",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "serialization",
-          "serialization-master",
-          "faststreams",
-          "faststreams-master",
-          "chronos",
-          "chronos-master",
-          "stew",
-          "nixpkgs"
-        ],
-        "src-stew-master": "src-stew-master_2"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1648108133,
-        "narHash": "sha256-mT48CapDbojj/LsOxtK4S6s6RhmZEFW8wkoeYVFtQ6Y=",
-        "owner": "nim-nix-pkgs",
-        "repo": "stew",
-        "rev": "fd51cd67444e92ddf7ad7867f44e03e4cc99eba5",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "stew",
-        "type": "github"
-      }
-    },
-    "stew-master_3": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "serialization",
-          "serialization-master",
-          "faststreams",
-          "faststreams-master",
-          "stew",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "serialization",
-          "serialization-master",
-          "faststreams",
-          "faststreams-master",
-          "stew",
-          "nixpkgs"
-        ],
-        "src-stew-master": "src-stew-master_3"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1648108133,
-        "narHash": "sha256-mT48CapDbojj/LsOxtK4S6s6RhmZEFW8wkoeYVFtQ6Y=",
-        "owner": "nim-nix-pkgs",
-        "repo": "stew",
-        "rev": "fd51cd67444e92ddf7ad7867f44e03e4cc99eba5",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "stew",
-        "type": "github"
-      }
-    },
-    "stew-master_4": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "serialization",
-          "serialization-master",
-          "stew",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "serialization",
-          "serialization-master",
-          "stew",
-          "nixpkgs"
-        ],
-        "src-stew-master": "src-stew-master_4"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1648108133,
-        "narHash": "sha256-mT48CapDbojj/LsOxtK4S6s6RhmZEFW8wkoeYVFtQ6Y=",
-        "owner": "nim-nix-pkgs",
-        "repo": "stew",
-        "rev": "fd51cd67444e92ddf7ad7867f44e03e4cc99eba5",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "stew",
-        "type": "github"
-      }
-    },
-    "stew-master_5": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "stew",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "chronicles",
-          "json_serialization",
-          "json_serialization-master",
-          "stew",
-          "nixpkgs"
-        ],
-        "src-stew-master": "src-stew-master_5"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1648108133,
-        "narHash": "sha256-mT48CapDbojj/LsOxtK4S6s6RhmZEFW8wkoeYVFtQ6Y=",
-        "owner": "nim-nix-pkgs",
-        "repo": "stew",
-        "rev": "fd51cd67444e92ddf7ad7867f44e03e4cc99eba5",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "stew",
-        "type": "github"
-      }
-    },
-    "stew-master_6": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "chronos",
-          "chronos-master",
-          "httputils",
-          "httputils-master",
-          "stew",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "chronos",
-          "chronos-master",
-          "httputils",
-          "httputils-master",
-          "stew",
-          "nixpkgs"
-        ],
-        "src-stew-master": "src-stew-master_6"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1647935004,
-        "narHash": "sha256-EsMiaWuoPhnA6uh5Bjo8G1EXDLuQPHI4vXQUbKtUujI=",
-        "owner": "nim-nix-pkgs",
-        "repo": "stew",
-        "rev": "3e60ee9ba32782a5a34ff424b8c8d290b897dcc6",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "stew",
-        "type": "github"
-      }
-    },
-    "stew-master_7": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "chronos",
-          "chronos-master",
-          "stew",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "chronos",
-          "chronos-master",
-          "stew",
-          "nixpkgs"
-        ],
-        "src-stew-master": "src-stew-master_7"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1648108133,
-        "narHash": "sha256-mT48CapDbojj/LsOxtK4S6s6RhmZEFW8wkoeYVFtQ6Y=",
-        "owner": "nim-nix-pkgs",
-        "repo": "stew",
-        "rev": "fd51cd67444e92ddf7ad7867f44e03e4cc99eba5",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "stew",
-        "type": "github"
-      }
-    },
-    "stew-master_8": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "stew",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "stew",
-          "nixpkgs"
-        ],
-        "src-stew-master": "src-stew-master_8"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1648108133,
-        "narHash": "sha256-mT48CapDbojj/LsOxtK4S6s6RhmZEFW8wkoeYVFtQ6Y=",
-        "owner": "nim-nix-pkgs",
-        "repo": "stew",
-        "rev": "fd51cd67444e92ddf7ad7867f44e03e4cc99eba5",
+        "rev": "2f74d82b8dbbd2144103f646070c06cdb1af35c6",
         "type": "github"
       },
       "original": {
@@ -1555,38 +882,32 @@
         "flakeNimbleLib": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
           "chronos",
-          "chronos-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
           "chronos",
-          "chronos-master",
           "nixpkgs"
         ],
-        "stew-master": "stew-master_2"
+        "src-stew-master": "src-stew-master_2"
       },
       "locked": {
-        "lastModified": 1648108133,
-        "narHash": "sha256-mT48CapDbojj/LsOxtK4S6s6RhmZEFW8wkoeYVFtQ6Y=",
+        "dir": "master",
+        "lastModified": 1648163641,
+        "narHash": "sha256-o1mp1U2lK44+JZDk4wYL0ntUijy1+3WGRrAHyr8j/GU=",
         "owner": "nim-nix-pkgs",
         "repo": "stew",
-        "rev": "fd51cd67444e92ddf7ad7867f44e03e4cc99eba5",
+        "rev": "2f74d82b8dbbd2144103f646070c06cdb1af35c6",
         "type": "github"
       },
       "original": {
+        "dir": "master",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "stew",
@@ -1598,34 +919,30 @@
         "flakeNimbleLib": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
           "nixpkgs"
         ],
-        "stew-master": "stew-master_3"
+        "src-stew-master": "src-stew-master_3"
       },
       "locked": {
-        "lastModified": 1648108133,
-        "narHash": "sha256-mT48CapDbojj/LsOxtK4S6s6RhmZEFW8wkoeYVFtQ6Y=",
+        "dir": "master",
+        "lastModified": 1648163641,
+        "narHash": "sha256-o1mp1U2lK44+JZDk4wYL0ntUijy1+3WGRrAHyr8j/GU=",
         "owner": "nim-nix-pkgs",
         "repo": "stew",
-        "rev": "fd51cd67444e92ddf7ad7867f44e03e4cc99eba5",
+        "rev": "2f74d82b8dbbd2144103f646070c06cdb1af35c6",
         "type": "github"
       },
       "original": {
+        "dir": "master",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "stew",
@@ -1637,30 +954,28 @@
         "flakeNimbleLib": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "nixpkgs"
         ],
-        "stew-master": "stew-master_4"
+        "src-stew-master": "src-stew-master_4"
       },
       "locked": {
-        "lastModified": 1648108133,
-        "narHash": "sha256-mT48CapDbojj/LsOxtK4S6s6RhmZEFW8wkoeYVFtQ6Y=",
+        "dir": "master",
+        "lastModified": 1648163641,
+        "narHash": "sha256-o1mp1U2lK44+JZDk4wYL0ntUijy1+3WGRrAHyr8j/GU=",
         "owner": "nim-nix-pkgs",
         "repo": "stew",
-        "rev": "fd51cd67444e92ddf7ad7867f44e03e4cc99eba5",
+        "rev": "2f74d82b8dbbd2144103f646070c06cdb1af35c6",
         "type": "github"
       },
       "original": {
+        "dir": "master",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "stew",
@@ -1672,26 +987,26 @@
         "flakeNimbleLib": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "nixpkgs"
         ],
-        "stew-master": "stew-master_5"
+        "src-stew-master": "src-stew-master_5"
       },
       "locked": {
-        "lastModified": 1648108133,
-        "narHash": "sha256-mT48CapDbojj/LsOxtK4S6s6RhmZEFW8wkoeYVFtQ6Y=",
+        "dir": "master",
+        "lastModified": 1648163641,
+        "narHash": "sha256-o1mp1U2lK44+JZDk4wYL0ntUijy1+3WGRrAHyr8j/GU=",
         "owner": "nim-nix-pkgs",
         "repo": "stew",
-        "rev": "fd51cd67444e92ddf7ad7867f44e03e4cc99eba5",
+        "rev": "2f74d82b8dbbd2144103f646070c06cdb1af35c6",
         "type": "github"
       },
       "original": {
+        "dir": "master",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "stew",
@@ -1702,29 +1017,27 @@
       "inputs": {
         "flakeNimbleLib": [
           "chronos",
-          "chronos-master",
           "httputils",
-          "httputils-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "chronos",
-          "chronos-master",
           "httputils",
-          "httputils-master",
           "nixpkgs"
         ],
-        "stew-master": "stew-master_6"
+        "src-stew-master": "src-stew-master_6"
       },
       "locked": {
-        "lastModified": 1647935004,
-        "narHash": "sha256-EsMiaWuoPhnA6uh5Bjo8G1EXDLuQPHI4vXQUbKtUujI=",
+        "dir": "master",
+        "lastModified": 1648163641,
+        "narHash": "sha256-o1mp1U2lK44+JZDk4wYL0ntUijy1+3WGRrAHyr8j/GU=",
         "owner": "nim-nix-pkgs",
         "repo": "stew",
-        "rev": "3e60ee9ba32782a5a34ff424b8c8d290b897dcc6",
+        "rev": "2f74d82b8dbbd2144103f646070c06cdb1af35c6",
         "type": "github"
       },
       "original": {
+        "dir": "master",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "stew",
@@ -1735,25 +1048,25 @@
       "inputs": {
         "flakeNimbleLib": [
           "chronos",
-          "chronos-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "chronos",
-          "chronos-master",
           "nixpkgs"
         ],
-        "stew-master": "stew-master_7"
+        "src-stew-master": "src-stew-master_7"
       },
       "locked": {
-        "lastModified": 1648108133,
-        "narHash": "sha256-mT48CapDbojj/LsOxtK4S6s6RhmZEFW8wkoeYVFtQ6Y=",
+        "dir": "master",
+        "lastModified": 1648163641,
+        "narHash": "sha256-o1mp1U2lK44+JZDk4wYL0ntUijy1+3WGRrAHyr8j/GU=",
         "owner": "nim-nix-pkgs",
         "repo": "stew",
-        "rev": "fd51cd67444e92ddf7ad7867f44e03e4cc99eba5",
+        "rev": "2f74d82b8dbbd2144103f646070c06cdb1af35c6",
         "type": "github"
       },
       "original": {
+        "dir": "master",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "stew",
@@ -1768,17 +1081,19 @@
         "nixpkgs": [
           "nixpkgs"
         ],
-        "stew-master": "stew-master_8"
+        "src-stew-master": "src-stew-master_8"
       },
       "locked": {
-        "lastModified": 1648108133,
-        "narHash": "sha256-mT48CapDbojj/LsOxtK4S6s6RhmZEFW8wkoeYVFtQ6Y=",
+        "dir": "master",
+        "lastModified": 1648163641,
+        "narHash": "sha256-o1mp1U2lK44+JZDk4wYL0ntUijy1+3WGRrAHyr8j/GU=",
         "owner": "nim-nix-pkgs",
         "repo": "stew",
-        "rev": "fd51cd67444e92ddf7ad7867f44e03e4cc99eba5",
+        "rev": "2f74d82b8dbbd2144103f646070c06cdb1af35c6",
         "type": "github"
       },
       "original": {
+        "dir": "master",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "stew",
@@ -1790,32 +1105,26 @@
         "flakeNimbleLib": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
           "nixpkgs"
         ],
         "src-testutils-v0_4_2": "src-testutils-v0_4_2"
       },
       "locked": {
         "dir": "v0_4_2",
-        "lastModified": 1648108165,
-        "narHash": "sha256-mv6lZCciC8RbqESc+54VX7+GsFR3m7Q+gWoPDrFl2PE=",
+        "lastModified": 1648163676,
+        "narHash": "sha256-C1Lpy0fxxD9/Am375To1u2fnvx5Xd4O3bG5PlFg51mI=",
         "owner": "nim-nix-pkgs",
         "repo": "testutils",
-        "rev": "0d9ea9b6d6512b29293a5e113a9ff1ef759fbc8d",
+        "rev": "d6d1b623359a153248ae0c497431f53ab404a892",
         "type": "github"
       },
       "original": {
@@ -1840,11 +1149,11 @@
       },
       "locked": {
         "dir": "v0_4_2",
-        "lastModified": 1648108165,
-        "narHash": "sha256-mv6lZCciC8RbqESc+54VX7+GsFR3m7Q+gWoPDrFl2PE=",
+        "lastModified": 1648163676,
+        "narHash": "sha256-C1Lpy0fxxD9/Am375To1u2fnvx5Xd4O3bG5PlFg51mI=",
         "owner": "nim-nix-pkgs",
         "repo": "testutils",
-        "rev": "0d9ea9b6d6512b29293a5e113a9ff1ef759fbc8d",
+        "rev": "d6d1b623359a153248ae0c497431f53ab404a892",
         "type": "github"
       },
       "original": {
@@ -1860,40 +1169,30 @@
         "flakeNimbleLib": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
           "chronos",
-          "chronos-master",
           "bearssl",
-          "bearssl-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
           "chronos",
-          "chronos-master",
           "bearssl",
-          "bearssl-master",
           "nixpkgs"
         ],
         "src-unittest2-v0_0_3": "src-unittest2-v0_0_3"
       },
       "locked": {
         "dir": "v0_0_3",
-        "lastModified": 1648108197,
-        "narHash": "sha256-dVl3JnhYXReX+MAMubiMhsxHfFxkOfieN6/2ki2TfUg=",
+        "lastModified": 1648163714,
+        "narHash": "sha256-2uFIB/e5j5/oirson4svtxDNOH4HyGWuOm7WTXle/nk=",
         "owner": "nim-nix-pkgs",
         "repo": "unittest2",
-        "rev": "ffc5ceacf522fe8ec16a997728d49642e719eedf",
+        "rev": "f89316ae7912f6e7883021135d91efe039ea4866",
         "type": "github"
       },
       "original": {
@@ -1909,40 +1208,30 @@
         "flakeNimbleLib": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
           "chronos",
-          "chronos-master",
           "httputils",
-          "httputils-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
           "chronos",
-          "chronos-master",
           "httputils",
-          "httputils-master",
           "nixpkgs"
         ],
         "src-unittest2-v0_0_3": "src-unittest2-v0_0_3_2"
       },
       "locked": {
         "dir": "v0_0_3",
-        "lastModified": 1647935047,
-        "narHash": "sha256-+YkpDPXGCefuXBVsa75MnGbJ8jkKhJmx676rmxG17nU=",
+        "lastModified": 1648163714,
+        "narHash": "sha256-2uFIB/e5j5/oirson4svtxDNOH4HyGWuOm7WTXle/nk=",
         "owner": "nim-nix-pkgs",
         "repo": "unittest2",
-        "rev": "632ac00c19b3d8bdec95bdc44e5c34310a55fd89",
+        "rev": "f89316ae7912f6e7883021135d91efe039ea4866",
         "type": "github"
       },
       "original": {
@@ -1958,32 +1247,26 @@
         "flakeNimbleLib": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "faststreams",
-          "faststreams-master",
           "nixpkgs"
         ],
         "src-unittest2-v0_0_3": "src-unittest2-v0_0_3_3"
       },
       "locked": {
         "dir": "v0_0_3",
-        "lastModified": 1648108197,
-        "narHash": "sha256-dVl3JnhYXReX+MAMubiMhsxHfFxkOfieN6/2ki2TfUg=",
+        "lastModified": 1648163714,
+        "narHash": "sha256-2uFIB/e5j5/oirson4svtxDNOH4HyGWuOm7WTXle/nk=",
         "owner": "nim-nix-pkgs",
         "repo": "unittest2",
-        "rev": "ffc5ceacf522fe8ec16a997728d49642e719eedf",
+        "rev": "f89316ae7912f6e7883021135d91efe039ea4866",
         "type": "github"
       },
       "original": {
@@ -1999,28 +1282,24 @@
         "flakeNimbleLib": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "chronicles",
           "json_serialization",
-          "json_serialization-master",
           "serialization",
-          "serialization-master",
           "nixpkgs"
         ],
         "src-unittest2-v0_0_3": "src-unittest2-v0_0_3_4"
       },
       "locked": {
         "dir": "v0_0_3",
-        "lastModified": 1648108197,
-        "narHash": "sha256-dVl3JnhYXReX+MAMubiMhsxHfFxkOfieN6/2ki2TfUg=",
+        "lastModified": 1648163714,
+        "narHash": "sha256-2uFIB/e5j5/oirson4svtxDNOH4HyGWuOm7WTXle/nk=",
         "owner": "nim-nix-pkgs",
         "repo": "unittest2",
-        "rev": "ffc5ceacf522fe8ec16a997728d49642e719eedf",
+        "rev": "f89316ae7912f6e7883021135d91efe039ea4866",
         "type": "github"
       },
       "original": {
@@ -2035,27 +1314,23 @@
       "inputs": {
         "flakeNimbleLib": [
           "chronos",
-          "chronos-master",
           "bearssl",
-          "bearssl-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "chronos",
-          "chronos-master",
           "bearssl",
-          "bearssl-master",
           "nixpkgs"
         ],
         "src-unittest2-v0_0_3": "src-unittest2-v0_0_3_5"
       },
       "locked": {
         "dir": "v0_0_3",
-        "lastModified": 1648108197,
-        "narHash": "sha256-dVl3JnhYXReX+MAMubiMhsxHfFxkOfieN6/2ki2TfUg=",
+        "lastModified": 1648163714,
+        "narHash": "sha256-2uFIB/e5j5/oirson4svtxDNOH4HyGWuOm7WTXle/nk=",
         "owner": "nim-nix-pkgs",
         "repo": "unittest2",
-        "rev": "ffc5ceacf522fe8ec16a997728d49642e719eedf",
+        "rev": "f89316ae7912f6e7883021135d91efe039ea4866",
         "type": "github"
       },
       "original": {
@@ -2070,27 +1345,23 @@
       "inputs": {
         "flakeNimbleLib": [
           "chronos",
-          "chronos-master",
           "httputils",
-          "httputils-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "chronos",
-          "chronos-master",
           "httputils",
-          "httputils-master",
           "nixpkgs"
         ],
         "src-unittest2-v0_0_3": "src-unittest2-v0_0_3_6"
       },
       "locked": {
         "dir": "v0_0_3",
-        "lastModified": 1647935047,
-        "narHash": "sha256-+YkpDPXGCefuXBVsa75MnGbJ8jkKhJmx676rmxG17nU=",
+        "lastModified": 1648163714,
+        "narHash": "sha256-2uFIB/e5j5/oirson4svtxDNOH4HyGWuOm7WTXle/nk=",
         "owner": "nim-nix-pkgs",
         "repo": "unittest2",
-        "rev": "632ac00c19b3d8bdec95bdc44e5c34310a55fd89",
+        "rev": "f89316ae7912f6e7883021135d91efe039ea4866",
         "type": "github"
       },
       "original": {
