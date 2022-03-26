@@ -82,11 +82,11 @@
       },
       "locked": {
         "dir": "v0_10_2",
-        "lastModified": 1648166235,
-        "narHash": "sha256-tb3KKCwnD351hS0gG0Gz6qMHPm99GPJUvGwzcFMRZe8=",
+        "lastModified": 1648275835,
+        "narHash": "sha256-+RXVc5bPo5vRrhZ0iT3dgUOlQrDV/T11Y5npizKmmU4=",
         "owner": "nim-nix-pkgs",
         "repo": "chronicles",
-        "rev": "af0a81ca5fdaaf31dd6b1192d1f14fcc1d9c5b6a",
+        "rev": "2b613e04408d9df4cb898d36a1024f5b2507d3ad",
         "type": "github"
       },
       "original": {
