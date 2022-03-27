@@ -11,6 +11,7 @@
   inputs.src-presto-master.ref   = "refs/heads/master";
   inputs.src-presto-master.owner = "status-im";
   inputs.src-presto-master.repo  = "nim-presto";
+  inputs.src-presto-master.dir   = "";
   inputs.src-presto-master.type  = "github";
   
   inputs."chronos".owner = "nim-nix-pkgs";
